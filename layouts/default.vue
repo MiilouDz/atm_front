@@ -1,9 +1,9 @@
 <template>
-    <div dir="rtl" class="px-20 bg-black_atm">
+    <div dir="rtl" class="px-20 bg-black_atm ">
       
-      <header class="shadow-sm bg-black bg-opacity-0">
+      <header class="shadow-sm bg-black dark:bg-gray-900">
         <!-- Navbar - Without authentication-->
-        <div class=" justify-between items-center inline-flex mt-4 px-4 mx-10">
+        <div class=" justify-between items-center  bg-black dark:bg-gray-900 inline-flex mt-4 px-4 mx-10">
           <img class="w-20 h-[62.93px]" src="assets\img\atmlogo.png" />
     <div class="justify-center items-center flex space-x-5 ml-20 mr-20">
         
@@ -37,7 +37,8 @@
     </div>
 </div>
       </header>
-      <div class="container mx-auto p-4">
+      
+      <div class="container mx-auto  ">
         <slot />
       </div>
     </div>

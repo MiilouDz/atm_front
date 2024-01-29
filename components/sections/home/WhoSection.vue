@@ -34,32 +34,35 @@
     <div class="w-1/2 p-6 font-tajawal">
       <div class="grid grid-cols-2 gap-2">
         <div >
-          <a href="#" class="block max-w-sm p-6 bg-black border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+          <a href="#" class="block max-w-sm p-6 bg-black  rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
 
-          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-orange_atm">01</h5>
-          <p class="font-normal text-gray-700 dark:text-gray-400">مسلم بقيمة مضافة  </p>
+          <h5 class="mb-2 text-4xl font-bold tracking-tight text-orange_atm   dark:text-orange_atm">01</h5>
+          <p class="font-normal text-gray-700 dark:text-gray-400">الهدف الأكبر هو بناء المعرفةانطلاقا من المعلومات التي ستشاركها </p>
           </a>
         </div>
         <div >
-          <a href="#" class="block max-w-sm p-6 bg-black border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+          <a href="#" class="block max-w-sm p-6 bg-black  rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
 
-          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-orange_atm">02</h5>
-          <p class="font-normal text-gray-700 dark:text-gray-400">مسلم بقيمة مضافة  </p>
+          <h5 class="mb-2 text-4xl font-bold tracking-tight text-orange_atm dark:text-orange_atm">02</h5>
+          <p class="font-normal text-gray-700 dark:text-gray-400"> إشراك الشاب العربي في بناء و إثراء المحتوى التعليمي و التقني بصفة عامة!   </p>
           </a>
         </div>
         <div >
-          <a href="#" class="block max-w-sm p-6 bg-black border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+          <a href="#" class="block max-w-sm p-6 bg-black  rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
 
-          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-orange_atm">03</h5>
-          <p class="font-normal text-gray-700 dark:text-gray-400">مسلم بقيمة مضافة  .</p>
+          <h5 class="mb-2 text-4xl font-bold tracking-tight text-orange_atm dark:text-orange_atm">03</h5>
+          <p class="font-normal text-gray-700 dark:text-gray-400">توفير محتوى متكامل و تقديمه بطريقة سلسلة و سهلة من أجل إيصال المعلومة بوضوح و بأسلوب مميز! .</p>
           </a>
         </div>
         <div >
-          <a href="#" class="block max-w-sm p-6 bg-black border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+          
 
-          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-orange_atm">04</h5>
-          <p class="font-normal text-gray-700 dark:text-gray-400">مسلم بقيمة مضافة  </p>
-          </a>
+          <button class="bg-orange_atm hover:bg-orange_atm text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+          <span>تعرف علينا أكثر</span>
+          <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
+
+          </button>
+          
         </div>
     </div>
     </div>
