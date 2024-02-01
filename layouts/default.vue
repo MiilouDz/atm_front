@@ -8,31 +8,47 @@
     <div class="justify-center items-center flex space-x-5 ml-20 mr-20">
         
         
-        <div class="px-6 py-4 justify-center items-center gap-2.5 flex">
-            <div class="text-white text-lg font-medium font-tajawal">الرئيسية</div>
+        <div class="px-6 py-4 justify-center items-center gap-2.5 flex hover:underline underline-offset-8 decoration-[#f97316] decoration-2">
+            <NuxtLink to="/">
+                <div class="text-white text-lg font-medium font-tajawal ">الرئيسية</div>
+            </NuxtLink>
         </div>
-        <div class="px-6 py-4 justify-center items-center gap-2.5 flex">
-            <div class="text-white text-lg font-medium font-tajawal">محتوانا</div>
+        <div class="px-6 py-4 justify-center items-center gap-2.5 flex hover:underline underline-offset-8 decoration-[#f97316] decoration-2">
+            <NuxtLink to="/">
+                <div class="text-white text-lg font-medium font-tajawal">محتوانا</div>
+            </NuxtLink>
         </div>
-        <div class="px-6 py-4 justify-center items-center gap-2.5 flex">
-            <div class="text-white text-lg font-medium font-tajawal">شارك أفكارك</div>
+        <div class="px-6 py-4 justify-center items-center gap-2.5 flex hover:underline underline-offset-8 decoration-[#f97316] decoration-2">
+            <NuxtLink to="/">
+                <div class="text-white text-lg font-medium font-tajawal">شارك أفكارك</div>
+            </NuxtLink>
         </div>
         
-        <div class="px-6 py-4 justify-center items-center gap-2.5 flex">
-            <div class="text-white text-lg font-medium font-tajawal">من نحن</div>
+        <div class="px-6 py-4 justify-center items-center gap-2.5 flex hover:underline underline-offset-8 decoration-[#f97316] decoration-2">
+            <NuxtLink to="/">
+                <div class="text-white text-lg font-medium font-tajawal">من نحن</div>
+            </NuxtLink>
         </div>
         
     </div>
 
 
 
-    <div class="justify-center items-center flex space-x-5 mr-20">
+    <div class="justify-between  flex space-x-5 mr-20">
         
-        <div class="px-6 py-4 justify-center items-center gap-2.5 flex">
+        <div class="px-6 py-4 hover:rounded-[7px] hover:border-2 hover:border-orange_atm justify-center items-center gap-2.5 flex ml-4 ">
+            <NuxtLink to="login">
+
+            
             <div class="text-white text-lg font-medium font-tajawal">تسجيل دخول</div>
+          </NuxtLink>
         </div>
-        <div class="px-6 py-4 rounded-[7px] border-2 border-white justify-center items-center gap-2.5 flex">
+        <div class="px-6 py-4 rounded-[7px] border-2 border-white justify-center items-center gap-2.5 flex hover:bg-orange_atm mr-4">
+            <NuxtLink to="signup">
+
+            
             <div class="text-white text-lg font-medium font-tajawal">أنشئ حسابا</div>
+           </NuxtLink>
         </div>
     </div>
 </div>

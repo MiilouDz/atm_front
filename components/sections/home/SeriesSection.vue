@@ -18,7 +18,7 @@
      </div>
 
      <div class="grid lg:grid-cols-2 gap-10 xl:gap-14 relative lg:max-w-none max-w-2xl md:max-w-3xl mx-auto">
-        <div class="grid grid-cols-4 gap-4">
+        <div class="grid grid-cols-4 gap-4  ">
         
             <div>  البرمجة </div>
             <div>  الأمن السيبراني </div>
@@ -29,6 +29,7 @@
             <div>  تطوير تطبيقات الهاتف </div>
 
        </div>  
+     
         <div class="grid sm:grid-cols-2 gap-8">
             <NewsCardPro />
             <NewsCardPro />
