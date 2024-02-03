@@ -1,6 +1,6 @@
 <template>
     
-    <section class="container mx-0 mb-16">
+    <section class="container mx-0 mb-16 " id="content">
      <div class="container mx-auto p-4 flex justify-between">
       <div class="text-3xl text font-tajawal ">
             <p> آخر الأخبار التقنية </p>

@@ -1,5 +1,5 @@
 <template >
-  <div class="container pr-10 pl-10">
+  <div class="container pr-10 pl-10 ">
   
   
   
@@ -47,5 +47,7 @@
         justify-content: center;
         align-items: center;
       }
-      
+      html {
+        scroll-behavior: smooth;
+      }
     </style>

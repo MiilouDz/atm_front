@@ -13,8 +13,8 @@
                 <div class="text-white text-lg font-medium font-tajawal ">الرئيسية</div>
             </NuxtLink>
         </div>
-        <div class="px-6 py-4 justify-center items-center gap-2.5 flex hover:underline underline-offset-8 decoration-[#f97316] decoration-2">
-            <NuxtLink to="/">
+        <div class="px-6 py-4 justify-center items-center gap-2.5 flex hover:underline underline-offset-8 decoration-[#f97316] decoration-2 ">
+            <NuxtLink :to="{path:'/', hash:'#content'}">
                 <div class="text-white text-lg font-medium font-tajawal">محتوانا</div>
             </NuxtLink>
         </div>
@@ -25,7 +25,7 @@
         </div>
         
         <div class="px-6 py-4 justify-center items-center gap-2.5 flex hover:underline underline-offset-8 decoration-[#f97316] decoration-2">
-            <NuxtLink to="/">
+            <NuxtLink :to="{path:'/', hash:'#who'}">
                 <div class="text-white text-lg font-medium font-tajawal">من نحن</div>
             </NuxtLink>
         </div>

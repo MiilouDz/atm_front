@@ -1,6 +1,6 @@
 <template>
     
-    <section class="container mx-0 mt-10">
+    <section class="container mx-0 mt-10" id="who">
 
      <div class="container mb-10">
     
