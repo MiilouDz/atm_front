@@ -19,7 +19,7 @@
           <a href="#" class="block max-w-sm p-6 bg-black  rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
 
             <count-up class="mb-2 text-6xl text-orange_atm font-bold tracking-tight text-gray-900 dark:text-orange_atm"
-          :startVal='0' :endVal='250' :duration="4"  >+</count-up>
+          :startVal='0' :endVal='250' :duration="4" >+</count-up>
           <p class="font-normal text-2xl text-gray-700 dark:text-gray-400"> مشارك في مبادرتنا </p>
           </a>
         </div>
