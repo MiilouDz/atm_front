@@ -14,7 +14,7 @@
         </div>
       </div>
       <!-- ? topics + group cards -->
-      <div class="grid grid-cols-1 grid-rows-2 lg:grid-cols-2 gap-6 xl:gap-14 relative mx-auto text-[20px]" style="750px">
+      <div class="grid grid-cols-1 grid-rows-2 lg:grid-cols-2 gap-6 xl:gap-14 relative mx-auto text-[20px]" style="/*750px*/">
           <!-- ? topics -->
           <div class="flex items-center flex-wrap h-max">
               <div class="px-2 py-2 hover:text-orange_atm cursor-pointer">  البرمجة </div>
