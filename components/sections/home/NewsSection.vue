@@ -1,6 +1,6 @@
 <!-- ** latest news section ** -->
 <template>
-    <section class="mb-16">
+    <section class="mb-16" id="content">
       <!-- ? title group -->
       <div class="w-[90%] md:container mx-auto mb-4 py-4 md:p-6 flex justify-between items-center">
         <div class="sectionTitle relative w-max h-max text-xl md:text-[40px] font-medium font-tajawal mr-4">
