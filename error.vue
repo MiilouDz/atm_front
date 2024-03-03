@@ -2,13 +2,15 @@
 
 
  
-    <div id="tsparticles"></div>
-    <div class="container">
-      <h1 id="heading">404</h1>
-      <h1 id="subheading" class="font-tajawal">لا توجد هذه الصفحة</h1>
-      <div class="button font-tajawal">
-        <a href="/">الذهاب للصفحة الرئيسية</a>
+    
+    <div class="wrapper">
+      <h1 id="heading relative z-5">404</h1>
+      <h1 id="subheading relative z-5" class="font-tajawal">لا توجد هذه الصفحة</h1>
+      <div class="button font-tajawal relative z-5">
+        <a href=  "/">الذهاب للصفحة الرئيسية</a>
       </div>
+      <div class="blur absolute top-0 left-0 w-full h-full bg-blur-md " ></div>
+      <div id="tsparticles"></div>
     </div>
 
 
@@ -17,7 +19,12 @@
 
 <script setup>
 
+// import { onMounted } from 'vue';
+// import { tsParticles } from 'tsparticles';
 
+// export default {
+  // setup() {
+  //   onMounted(() => {
 tsParticles.load("tsparticles", {
   fpsLimit: 60,
   particles: {
@@ -97,7 +104,7 @@ tsParticles.load("tsparticles", {
   interactivity: {
     detectsOn: "canvas",
     events: {
-      resize: true,
+      resize: false,
     },
   },
   detectRetina: true,
@@ -119,8 +126,9 @@ tsParticles.load("tsparticles", {
       y: 100,
     },
   },
-});
-
+})
+// })
+// }
 
 </script>
 
@@ -134,13 +142,14 @@ tsParticles.load("tsparticles", {
   /* overflow: hidden; */
 }
 #tsparticles {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: linear-gradient(to left bottom, #121212, #180803);
 }
 
-.container {
+.wrapper {
   color: white;
   display: flex;
   align-items: center;

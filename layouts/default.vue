@@ -1,65 +1,11 @@
 <template>
-    <div dir="rtl" class="px-20 bg-black_atm ">
-      
-      <header class="shadow-sm bg-black dark:bg-gray-900">
-        <!-- Navbar - Without authentication-->
-        <div class=" justify-between items-center  bg-black dark:bg-gray-900 inline-flex mt-4 px-4 mx-10">
-          <img class="w-20 h-[62.93px]" src="assets\img\atmlogo.png" />
-    <div class="justify-center items-center flex space-x-5 ml-20 mr-20">
-        
-        
-        <div class="px-6 py-4 justify-center items-center gap-2.5 flex hover:underline underline-offset-8 decoration-[#f97316] decoration-2">
-            <NuxtLink to="/">
-                <div class="text-white text-lg font-medium font-tajawal ">الرئيسية</div>
-            </NuxtLink>
-        </div>
-        <div class="px-6 py-4 justify-center items-center gap-2.5 flex hover:underline underline-offset-8 decoration-[#f97316] decoration-2">
-            <NuxtLink to="/">
-                <div class="text-white text-lg font-medium font-tajawal">محتوانا</div>
-            </NuxtLink>
-        </div>
-        <div class="px-6 py-4 justify-center items-center gap-2.5 flex hover:underline underline-offset-8 decoration-[#f97316] decoration-2">
-            <NuxtLink to="/">
-                <div class="text-white text-lg font-medium font-tajawal">شارك أفكارك</div>
-            </NuxtLink>
-        </div>
-        
-        <div class="px-6 py-4 justify-center items-center gap-2.5 flex hover:underline underline-offset-8 decoration-[#f97316] decoration-2">
-            <NuxtLink to="/">
-                <div class="text-white text-lg font-medium font-tajawal">من نحن</div>
-            </NuxtLink>
-        </div>
-        
-    </div>
-
-
-
-    <div class="justify-between  flex space-x-5 mr-20">
-        
-        <div class="px-6 py-4 hover:rounded-[7px] hover:border-2 hover:border-orange_atm justify-center items-center gap-2.5 flex ml-4 ">
-            <NuxtLink to="login">
-
-            
-            <div class="text-white text-lg font-medium font-tajawal">تسجيل دخول</div>
-          </NuxtLink>
-        </div>
-        <div class="px-6 py-4 rounded-[7px] border-2 border-white justify-center items-center gap-2.5 flex hover:bg-orange_atm mr-4">
-            <NuxtLink to="signup">
-
-            
-            <div class="text-white text-lg font-medium font-tajawal">أنشئ حسابا</div>
-           </NuxtLink>
-        </div>
-    </div>
-</div>
-      </header>
-      
-      <div class="container mx-auto  ">
+    <div dir="rtl" class="bg-[#0F0F0F]"><!--bg-darkBgColor-->
+      <div class=" mx-auto  ">
         <slot />
       </div>
     </div>
 
-    <footer class="bg-black dark:bg-gray-900 " dir="rtl">
+    <!-- <footer class="bg-black dark:bg-gray-900 " dir="rtl">
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div class="md:flex justify-around">
           
@@ -143,28 +89,54 @@
           </div>
       </div>
     </div>
-</footer>
-
-
-  </template>
+    </footer> -->
+</template>
 
 <script setup>
 
 </script>
 
 <style>
+*{
+    transition: all 300ms ease;
+}
 body {
   background-color: #fff;
   color: rgba(0,0,0,0.8);
 }
 .dark-mode body {
-  background-color: #000000;
+  background-color: #0F0F0F;
   color: #ebf4f1;
 }
 
-.logo-img {
-  width: 50px; /* Adjust the width as needed */
-  height: auto; /* Maintain the aspect ratio */
+.link::after,
+.link.active::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -10px;
+  width: 0;
+  opacity: 0;
+  height: 4px;
+  border-radius: 16px;
+  background-color: #F44806;
+  transition: all 0.3s ease-in-out;
 }
+
+.link:hover::after,
+.link.active::after {
+  width: 25%;
+  opacity: 1;
+}
+/* ** section title style ** */
+/* .sectionTitle::before{
+  content: '';
+  position: absolute;
+  right: -18px;
+  height: 90%;
+  background: #fd4006;
+  width: 9px;
+  border-radius: 25px;
+} */
 
 </style>

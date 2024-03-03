@@ -17,5 +17,9 @@
     "nuxt-particles": "^0.1.5",
     "vue": "^3.4.14",
     "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "tsparticles": "^3.2.1"
   }
 }
