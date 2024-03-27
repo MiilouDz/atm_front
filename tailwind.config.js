@@ -6,6 +6,15 @@ module.exports = {
           tajawal: ['Tajawal', 'sans-serif',],
           ubuntu: ['Ubuntu', 'sans-serif',],
         },
+        // fontSize: {
+        //   heading1 : '48px',
+        //   heading2 : '40px',
+        //   heading3 : '32px',
+        //   heading4 : '24px',
+        //   heading5 : '20px',
+        //   paragraphDesk : '18px',
+
+        // },
       },
       colors: {
         transparent: 'transparent',
@@ -25,6 +34,8 @@ module.exports = {
         'white_atm': '#ffffff',
         'white2_atm': '#FAFAFA',
         'gray_atm': '#232323',
+        'secondaryDark' :'#212121',
+        'darkBgColor' : '#0F0F0F',
         
       },
     },

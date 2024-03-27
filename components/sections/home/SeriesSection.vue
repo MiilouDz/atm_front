@@ -1,53 +1,45 @@
+<!-- ** Series section in index page ** -->
 <template>
-    
-    <section class="container mx-0 font-tajawal">
-
-     <div class="container mx-auto p-2 flex justify-between">
-      <div class="text-3xl text ">
-            <p>أشهر سلاسلنا  </p>
-          </div>
-      <div class="flex items-center min-w-max relative">
-        <NuxtLink to="/contentPages/topSeries">
-            <button class="bg-orange_atm hover:bg-orange_atm text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
-          <span>عرض المزيد </span>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
-          </svg>
+    <section class="my-[120px] w-[90%] md:container mx-auto md:px-10 font-tajawal">
+      <!-- ? series title group -->
+      <div class="mb-3 md:p-6 flex justify-between items-center">
+        <div class="sectionTitle relative w-max h-max text-xl md:text-[40px] font-medium font-tajawal mr-4">
+          <h2> أشهر سلاسلنا</h2>
+        </div>
+        <div class="flex items-center min-w-max relative font-tajawal">
+          <button class=" hover:text-orange_atm text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+            <h6>عرض المزيد </h6>
+            <i class="fa-solid fa-arrow-left w-4 h-4 mr-2"></i>
           </button>
-        </NuxtLink>
-
-    </div>
-
-     </div>
-
-     <div class="grid lg:grid-cols-2 gap-10 xl:gap-14 relative lg:max-w-none max-w-2xl md:max-w-3xl mx-auto">
-        <div class="grid grid-cols-4 gap-4  ">
-        
-            <div>  البرمجة </div>
-            <div>  الأمن السيبراني </div>
-            <div>  التصميم </div>
-            <div>  البلوكشاين </div>
-            <div>  الذكاء الإصطناعي </div>
-            <div>  تطوير الويب </div>
-            <div>  تطوير تطبيقات الهاتف </div>
-
-       </div>  
-     
-        <div class="grid sm:grid-cols-2 gap-8">
-            <NewsCardPro />
-            <NewsCardPro />
-            
-       </div>  
-     </div>
- 
-
+        </div>
+      </div>
+      <!-- ? topics + group cards -->
+      <div class="grid grid-cols-1 grid-rows-2 lg:grid-cols-2 gap-6 xl:gap-14 relative mx-auto text-[20px]" style="/*750px*/">
+          <!-- ? topics -->
+          <div class="flex items-center flex-wrap h-max">
+              <div class="px-2 py-2 hover:text-orange_atm cursor-pointer">  البرمجة </div>
+              <div class="px-2 py-2 hover:text-orange_atm cursor-pointer">  الأمن السيبراني </div>
+              <div class="px-2 py-2 hover:text-orange_atm cursor-pointer">  التصميم </div>
+              <div class="px-2 py-2 hover:text-orange_atm cursor-pointer">  البلوكشاين </div>
+              <div class="px-2 py-2 hover:text-orange_atm cursor-pointer">  الذكاء الإصطناعي </div>
+              <div class="px-2 py-2 hover:text-orange_atm cursor-pointer">  تطوير الويب </div>
+              <div class="px-2 py-2 hover:text-orange_atm cursor-pointer">  تطوير تطبيقات الهاتف </div>
+              <div class="px-2 py-2 hover:text-orange_atm cursor-pointer">  البلوكشاين </div>
+              <div class="px-2 py-2 hover:text-orange_atm cursor-pointer">  الذكاء الإصطناعي </div>
+              <div class="px-2 py-2 hover:text-orange_atm cursor-pointer">  تطوير الويب </div>
+              <div class="px-2 py-2 hover:text-orange_atm cursor-pointer">  تطوير تطبيقات الهاتف </div>
+          </div>  
+          <!-- ? series cards group -->
+          <div class="grid sm:grid-cols-2 gap-4">
+              <NewsCardPro />
+              <NewsCardPro />
+          </div>  
+      </div>
     </section>
 </template>
 
 <script>
- 
 </script>
 
 <style scoped>
-
 </style>

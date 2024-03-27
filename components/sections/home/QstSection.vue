@@ -1,10 +1,10 @@
 <template>
     
-    <section class="container mx-0 mt-10 font-tajawal">
+    <section class="container mx-0 my-[96px] font-tajawal">
 
-     <div class="container mx-auto p-2 flex justify-between">
+     <div class="container mx-auto p-2 flex justify-between items-center">
     
-      <div class="text-3xl text ">
+      <div class="sectionTitle relative w-max h-max text-xl md:text-3xl text ">
             <p> الأسئلة الأكثر شيوعا  </p>
           </div>
       <div class="flex items-center min-w-max relative">

@@ -7,7 +7,7 @@
     <div class="grid place-content-center mt-16 mb-16 ">
         <div class="homeTitle text-center hover:text-center mb-16">
             
-            <h1 data-aos="fade-down" class="text-xl md:text-5xl font-bold mb-4 underline decoration-[#f97316] mt-6 mb-6 font-ubuntu"> Algerian Tech Makers </h1>
+            <h1 data-aos="fade-down" class="text-xl md:text-5xl font-bold  underline decoration-[#f97316] mt-6 mb-6 font-ubuntu"> Algerian Tech Makers </h1>
             <p data-aos="fade-down" data-aos-delay="300" class="md:text-lg mb-6 font-tajawal">كل ما تريد معرفته في المجالات التقنية تجده هنا </p>
         </div>
     

@@ -19,6 +19,8 @@
     "vue-router": "^4.2.5"
   },
   "dependencies": {
-    "vue-countup-v3": "^1.4.1"
+    "vue-countup-v3": "^1.4.1",
+    "aos": "^2.3.4",
+    "tsparticles": "^3.2.1"
   }
 }
