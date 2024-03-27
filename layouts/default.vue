@@ -1,6 +1,6 @@
 <template>
     <div dir="rtl" class="bg-[#0F0F0F]"><!--bg-darkBgColor-->
-      <div class=" mx-auto  ">
+      <div class=" px-24  ">
         <slot />
       </div>
     </div>
