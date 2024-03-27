@@ -15,7 +15,7 @@
                     </div>
                     <!-- TODO link + dropdown menu -->
                     <div class="md:px-4 md:py-2 lg:px-6 lg:py-4 relative">
-                        <NuxtLink to="/" @click="toggleDropdown" class="flex items-center">
+                        <NuxtLink to="#" @click="toggleDropdown" class="flex items-center">
                             <div class="link pl-2 relative w-max h-max text-white text-[16px] font-medium font-tajawal">محتوانا</div>
                             <!-- ? flip chevron -->
                             <i :class="chevronClass"></i>
@@ -30,12 +30,12 @@
                         </div>
                     </div>
                     <div class="md:px-4 md:py-2 lg:px-6 lg:py-4 ">
-                        <NuxtLink to="/">
+                        <NuxtLink to="#">
                             <div class="link  relative w-max h-max text-white text-[16px] font-medium font-tajawal">شارك أفكارك</div>
                         </NuxtLink>
                     </div>
                     <div @click="toggleDropdown1" class="relative md:px-4 md:py-2 lg:px-6 lg:py-4 ">
-                        <NuxtLink to="/" class="flex items-center">
+                        <NuxtLink to="#" class="flex items-center">
                             <div class="link pl-2 relative w-max h-max text-white text-[16px] font-medium font-tajawal">من نحن</div>
                             <i :class="chevronClass1"></i>
                         </NuxtLink>
@@ -121,7 +121,7 @@
             
             switch (option) {
                 case 'سلاسل و منشورات':
-                return "/contentPages/TopQsts";
+                return "/contentPages/TopSeries";
                 case 'مدونتنا':
                 return '';
                 case 'أسئلة شائعة':
