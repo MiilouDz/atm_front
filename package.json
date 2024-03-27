@@ -21,6 +21,7 @@
   "dependencies": {
     "vue-countup-v3": "^1.4.1",
     "aos": "^2.3.4",
-    "tsparticles": "^3.2.1"
+    "tsparticles": "^3.2.1",
+    "ipx": "^3.0.1"
   }
 }
