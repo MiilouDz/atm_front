@@ -24,7 +24,7 @@
                         <div class="dropdown bg-black_atm  text-[white] absolute top-[64px] right-0 w-max h-max rounded shadow-lg z-[50] overflow-hidden border border-1 border-orange_atm" >
                             <ul v-if="isOpen" class="dropdownContainer">
                                 <li v-for="option in options" :key="option" @click="selectOption(option)" class="px-3 py-4 relative hover:bg-orange_atm ">
-                                    {{ option }}
+                                    <router-link :to="getOptionRoute(option)">{{ option }}</router-link> 
                                 </li>
                             </ul>
                         </div>
@@ -43,7 +43,7 @@
                         <div class="dropdown bg-black_atm  text-[white] absolute top-[64px] right-0 w-max h-max rounded shadow-lg z-[50] overflow-hidden border border-1 border-orange_atm" >
                             <ul v-if="isOpen1" class="dropdownContainer">
                                 <li v-for="item in items" :key="item" @click="selectOption(item)" class="px-3 py-4 relative hover:bg-orange_atm ">
-                                    {{ item }}
+                                    <router-link :to="getItemRoute(item)">{{ item }}</router-link>
                                 </li>
                             </ul>
                         </div>
@@ -79,7 +79,7 @@
                 options : ['سلاسل و منشورات' , 'مدونتنا', 'أسئلة شائعة', 'مبادراتنا'],
                 isFlipped : false,
                 isOpen1 : false,
-                items : ['تعرف على المنصة'  , 'تعرف على ATM و APV', 'تواصل معنا'],
+                items : ['تعرف على المنصة'  , 'تعرف على ATM ', 'تواصل معنا'],
                 isFlipped1 : false,
                 
                 //? toggleMenu 
@@ -115,6 +115,35 @@
             // ? toggleMenu
             toggleMenu(){
                 this.opened = !this.opened;
+            },
+            getOptionRoute(option) {
+            // Define the route path for each option
+            
+            switch (option) {
+                case 'سلاسل و منشورات':
+                return "/contentPages/TopQsts";
+                case 'مدونتنا':
+                return '';
+                case 'أسئلة شائعة':
+                return "/contentPages/TopQsts";
+                case 'مبادراتنا':
+                return '';
+                default:
+                return '/';
+            }
+            },
+            getItemRoute(item) {
+            // Define the route path for each item
+            switch (item) {
+                case 'تعرف على المنصة':
+                return "/whoPages/website";
+                case 'تعرف على ATM ':
+                return "/whoPages/atm";
+                case 'تواصل معنا':
+                return "/whoPages/contact";
+                default:
+                return '/';
+            }
             },
         }
     }
