@@ -3,7 +3,7 @@
     <header class=" relative shadow-sm bg-gradient-to-bl from-[#15151575] to-[#16060015] bg-blur-md w-full h-max px-10">
       <Nav />
       <!-- ? HeaderText -->
-      <div class="grid place-content-center h-full mt-16 mb-20 pb-10 ">
+      <div class="grid place-content-center h-full mt-16 mb-20 pb-10 to-white_atm">
           <div class="homeTitle text-center mb-16 ">
               <h1 data-aos="fade-down" data-aos-duration="1500" class="text-3xl md:text-5xl font-bold mb-4  mt-6 font-ubuntu"> Algerian Tech Makers </h1>
               <p data-aos="fade-down" data-aos-duration="2000" data-aos-delay="300" class="text-lg md:text-xl mb-6 font-tajawal">كل ما تريد معرفته في المجالات التقنية تجده هنا </p>
@@ -29,7 +29,7 @@
         <div class="md:flex justify-around">
           
           <div class="mb-6 md:mb-0">
-              <a href="https://flowbite.com/" class="flex items-center">
+              <a href="#" class="flex items-center">
                   <img src="assets\img\logo2.png" class="h-8 me-3" alt="FlowBite Logo" />
                   <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">ATM</span>
               </a>
@@ -39,10 +39,10 @@
                   <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">الرئيسية</h2>
                   <ul class="text-gray-500 dark:text-gray-400 font-medium">
                       <li class="mb-4">
-                          <a href="https://flowbite.com/" class="hover:underline">آخر الأخبار</a>
+                          <a href="#" class="hover:underline">آخر الأخبار</a>
                       </li>
                       <li>
-                          <a href="https://tailwindcss.com/" class="hover:underline">أشهر المنشورات</a>
+                          <a href="#" class="hover:underline">أشهر المنشورات</a>
                       </li>
                   </ul>
               </div>
@@ -50,10 +50,10 @@
                   <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">محتوانا</h2>
                   <ul class="text-gray-500 dark:text-gray-400 font-medium">
                       <li class="mb-4">
-                          <a href="https://github.com/themesberg/flowbite" class="hover:underline ">منشورات و سلاسل</a>
+                          <a href="#" class="hover:underline ">منشورات و سلاسل</a>
                       </li>
                       <li>
-                          <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">المدونة</a>
+                          <a href="#" class="hover:underline">المدونة</a>
                       </li>
                   </ul>
               </div>
