@@ -123,7 +123,7 @@
                 case 'سلاسل و منشورات':
                 return "/contentPages/TopSeries";
                 case 'مدونتنا':
-                return '';
+                return '/contentPages/OurBlog';
                 case 'أسئلة شائعة':
                 return "/contentPages/TopQsts";
                 case 'مبادراتنا':

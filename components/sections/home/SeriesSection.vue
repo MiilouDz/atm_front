@@ -7,10 +7,14 @@
           <h2> أشهر سلاسلنا</h2>
         </div>
         <div class="flex items-center min-w-max relative font-tajawal">
+          <NuxtLink to="/contentPages/TopSeries">
+
+         
           <button class=" hover:text-orange_atm text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
             <h6>عرض المزيد </h6>
             <i class="fa-solid fa-arrow-left w-4 h-4 mr-2"></i>
           </button>
+         </NuxtLink>
         </div>
       </div>
       <!-- ? topics + group cards -->
